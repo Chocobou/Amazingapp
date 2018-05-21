@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My name is Corentin Le Bris and I'm programing this app to learn how Ruby Rails works. I'm positively sure that I could use my knowledge in future complex apps.
 
 Things you may want to cover:
 

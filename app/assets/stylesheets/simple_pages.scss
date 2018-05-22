@@ -1,3 +1,23 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#introduction img {
+  width: 100%;
+}

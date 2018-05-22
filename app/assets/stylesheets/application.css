@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+ .link li {
+   display: inline-block;
+   float: left;
+   clear: both;
+   letter-spacing: 0.1em;
+ }
+
+.link li a {
+  text-transform: capitalize;
+  color: black;
+}
+
+ .site-footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #eee;
+   color: black;
+   padding-left: 1em;
+ }

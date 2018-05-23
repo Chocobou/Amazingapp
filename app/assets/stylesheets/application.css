@@ -14,24 +14,51 @@
  *= require_self
  */
 
- .link li {
-   display: inline-block;
-   float: left;
-   clear: both;
-   letter-spacing: 0.1em;
+ .ProjectName {
+   text-transform:uppercase;
+   color: white;
+   padding-left: 20px;
  }
 
-.link li a {
-  text-transform: capitalize;
-  color: black;
+ .navbar {
+   margin-left: -15px;
+   height: 20px;
+ }
+
+ .nav ul li {
+   display: inline-block;
+   float: right;
+ }
+
+.navbar-inverse .navbar-nav>.active>a {
+   background-color: grey;
+ }
+
+ .nav a:hover {
+   color: #cccc99;
+   text-decoration: none;
+ }
+
+ .nav a {
+   transition: color 400ms;
+   -webkit-transition: color 400ms;
+   -moz-transition: color 400ms;
+   -o-transition: color 400ms;
+ }
+
+.navbar-header {
+  z-index: 100;
+}
+
+#last_row {
+  margin-bottom: 5em;
 }
 
  .site-footer {
    position: fixed;
-   left: 0;
+   text-align: center;
    bottom: 0;
    width: 100%;
    background-color: #eee;
    color: black;
-   padding-left: 1em;
  }

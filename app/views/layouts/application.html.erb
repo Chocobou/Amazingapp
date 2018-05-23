@@ -33,9 +33,9 @@
       </div>
       <div class="navbar-collapse collapse" id="nav-scroll">
         <ul class="nav navbar-nav navbar-right" role="tablist">
-          <li class="active"><%= link_to "HOME", root_path %></li>
-          <li><%= link_to "ABOUT", simple_pages_about_path %></li>
-          <li><%= link_to "CONTACT", simple_pages_contact_path %></li>
+          <li><%= link_to "HOME", root_path, :class => current_class?(root_path) %></li>
+          <li><%= link_to "ABOUT", simple_pages_about_path, :class => current_class?(simple_pages_about_path) %></li>
+          <li><%= link_to "CONTACT", simple_pages_contact_path, :class => current_class?(simple_pages_contact_path) %></li>
         </ul>
       </div>
     </div>

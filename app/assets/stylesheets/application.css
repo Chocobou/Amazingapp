@@ -46,19 +46,27 @@
    -o-transition: color 400ms;
  }
 
-.navbar-header {
-  z-index: 100;
+.navbar-nav {
+  background-color: #222;
+}
+
+.nav.navbar-nav {
+  margin: 0;
+}
+
+#navbar {
+  padding-right: 0;
 }
 
 #last_row {
   margin-bottom: 5em;
 }
 
- .site-footer {
-   position: fixed;
-   text-align: center;
-   bottom: 0;
-   width: 100%;
-   background-color: #eee;
-   color: black;
- }
+.site-footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  color: black;
+}

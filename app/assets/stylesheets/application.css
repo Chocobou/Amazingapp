@@ -30,13 +30,13 @@
    float: right;
  }
 
-.navbar-inverse .navbar-nav>.active>a {
-   background-color: grey;
- }
-
  .nav a:hover {
    color: #cccc99;
    text-decoration: none;
+ }
+
+ .active {
+   background-color: #DCDCDC;
  }
 
  .nav a {
